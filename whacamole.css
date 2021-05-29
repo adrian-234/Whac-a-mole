@@ -1,0 +1,66 @@
+body {
+    background-color:green;
+    font-family: "Calibri";
+}
+h1 {
+    text-align:center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    height: 145px;
+}
+button {
+    background-color: inherit;
+    border: none;
+}
+#start {
+    background-color: limegreen;
+    border: black 2.3pt solid;
+    border-radius: 5pt;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 0.5%;
+    font-size: 130%;
+    font-weight: bold;
+}
+img {
+    width: 150px;
+}
+#focim {
+    width: 100%;
+    border-collapse: collapse;
+}
+.job {
+    text-align: right;
+    width:75pt;
+    height: fit-content;
+}
+.job2 {
+    text-align: right;
+    width:20pt;
+    height: fit-content;
+}
+.bal {
+    text-align: left;
+    width:100pt;
+}
+.cim {
+    font-weight: bold;
+    text-align: center;
+    font-size: 250%;
+}
+#nehezseg {
+    background-color: limegreen;
+    border: black 2.3pt solid;
+    border-radius: 5pt;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 3%;
+    font-size: 100%;
+    color:white;
+}
