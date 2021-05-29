@@ -27,6 +27,11 @@ button {
     font-size: 130%;
     font-weight: bold;
 }
+#start:hover {
+    font-size: 140%;
+    border-right:black solid 3.5pt;
+    border-bottom:black solid 4pt;
+}
 img {
     width: 150px;
 }
@@ -63,4 +68,9 @@ img {
     padding: 3%;
     font-size: 100%;
     color:white;
+}
+#nehezseg:hover {
+    font-size: 105%;
+    border-right:black solid 3.5pt;
+    border-bottom:black solid 4pt;
 }
