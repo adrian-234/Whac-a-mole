@@ -34,7 +34,7 @@ function nehezseg() {
     } else {
         hard = false;
         document.getElementById("nehezseg").innerHTML = "Könnyű";
-        document.getElementById("nehezseg").style.color = "black";
+        document.getElementById("nehezseg").style.color = "white";
         random_limit = 13;
         document.getElementById("kep13").src = "";
         document.getElementById("kep14").src = "";
@@ -64,9 +64,6 @@ function start() {
     game();
     m = x;
     dobalas_to = setTimeout(start, dobalas_ido);
-    /*if (document.getElementById("pontok").innerHTML <= 9) {
-        dobalas_to = setTimeout(bomba, dobalas_ido);
-    }*/
 }
 
 //lerak egy bombát
@@ -130,10 +127,10 @@ function stop() {
     if (document.getElementById("pontok").innerHTML >= document.getElementById("rekord").innerHTML) {
         document.getElementById("rekord").innerHTML = document.getElementById("pontok").innerHTML;
     }
-    reset();
     clearTimeout(stop_to);
     dobalas_ido = 2000;
     document.getElementById("pontok").innerHTML = "";
+    reset();
     x = 0;
     m = 1;
     b = 1;
