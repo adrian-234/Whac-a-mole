@@ -105,7 +105,6 @@ function pont() {
     }
 
     if (document.getElementById("pontok").innerHTML >= 9) {
-        //bomba();
         if (melyik_gomb == b_memory) {
             document.getElementById("pontok").innerHTML = document.getElementById("pontok").innerHTML*1 - 5;
         } else {
@@ -113,7 +112,6 @@ function pont() {
         }
     }
     if (document.getElementById("pontok").innerHTML >= 15 && hard == true) {
-        //bomba2();
         if (melyik_gomb == b2_memory) {
             document.getElementById("pontok").innerHTML = document.getElementById("pontok").innerHTML*1 - 5;
         }
@@ -164,7 +162,7 @@ function reset() {
     document.getElementById("gomb" + b).disabled = true;
     document.getElementById("kep" + b2).src = "lik.png";
     document.getElementById("gomb" + b2).disabled = true;
-    if (document.getElementById("pontok").innerHTML >= 9) {
+    if (document.getElementById("pontok").innerHTML >= 10) {
         bomba();
     }
     if (document.getElementById("pontok").innerHTML >= 15 && hard == true) {
