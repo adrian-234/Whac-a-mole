@@ -35,9 +35,14 @@ button {
 img {
     width: 150px;
 }
-#focim {
-    width: 100%;
+#cim {
+    padding-left: 40.5%;
+    padding-right: 36%;
+    padding-top:1%;
     border-collapse: collapse;
+    font-weight: bold;
+    text-align: center;
+    font-size: 250%;
 }
 .job {
     text-align: right;
@@ -52,11 +57,6 @@ img {
 .bal {
     text-align: left;
     width:100pt;
-}
-.cim {
-    font-weight: bold;
-    text-align: center;
-    font-size: 250%;
 }
 #nehezseg {
     background-color: limegreen;
@@ -73,4 +73,27 @@ img {
     font-size: 105%;
     border-right:black solid 3.5pt;
     border-bottom:black solid 4pt;
+}
+#nehezseg2{
+    padding-top:1%;
+}
+ul{
+    list-style-type:none;
+    padding:0pt;
+    margin:0pt;
+    overflow:hidden;
+}
+li {
+    float:left;
+}
+#stats{
+    background-color: limegreen;
+    border: black 2.3pt solid;
+    border-radius: 5pt;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 3%;
+    font-size: 100%;
+    color:white;
 }
