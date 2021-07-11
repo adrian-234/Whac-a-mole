@@ -9,22 +9,26 @@
     <link rel="stylesheet" href="whacamole.css"> 
 </head>
 <body>
-    <table id="focim">
-        <tr>
-            <td rowspan="3" class="bal"><button onclick="nehezseg()" id="nehezseg" >Könnyű</button></td>
-            <td rowspan="3" class="cim">Whac-A-Mole</td>
-            <td class="job">Pontok:</td>
-            <td class="job2" id="pontok">0</td>
-        </tr>
-        <tr>
-            <td class="job">Rekord:</td>
-            <td class="job2" id="rekord">0</td>
-        </tr>
-        <tr>
-            <td class="job">Hátralévő idő:</td>
-            <td class="job2" id="ido"></td>
-        </tr>
-    </table>
+    
+    <ul>
+        <li id="nehezseg2"><button onclick="nehezseg()" id="nehezseg" >Könnyű</button></li>
+        <li id="cim">Whac-A-Mole</li>
+        <li><table id="stats">
+                <tr>
+                    <td class="job">Pontok:</td>
+                    <td class="job2" id="pontok">0</td>
+                </tr>
+                <tr>
+                    <td class="job">Rekord:</td>
+                    <td class="job2" id="rekord">0</td>
+                </tr>
+                <tr>
+                    <td class="job">Hátralévő idő:</td>
+                    <td class="job2" id="ido"></td>
+                </tr>
+            </table>
+        </li>
+    </ul>
     <table>
         <tr>
             <td><button id="gomb13" disabled onclick="gomb13(); start(); pont()"><img id="kep13" src=""></button></td>
