@@ -40,7 +40,7 @@ function nehezseg() {
         hard = false;
         hard_rekord = document.getElementById("rekord").innerHTML;
         document.getElementById("rekord").innerHTML = easy_rekord;
-        document.getElementById("rekord").style.color = "black";
+        document.getElementById("rekord").style.color = "white";
         document.getElementById("nehezseg").innerHTML = "Könnyű";
         document.getElementById("nehezseg").style.color = "white";
         random_limit = 13;
