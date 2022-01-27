@@ -135,7 +135,7 @@ function stop() {
     }
     clearTimeout(stop_to);
     dobalas_ido = 2000;
-    document.getElementById("pontok").innerHTML = "";
+    //document.getElementById("pontok").innerHTML = "";
     reset();
     x = 0;
     m = 1;
